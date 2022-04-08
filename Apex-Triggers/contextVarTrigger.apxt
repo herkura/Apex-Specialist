@@ -1,10 +1,10 @@
-// To access the records we are using context var i.e. ".new" 
-//With Trigger.new am iterating over all the new updates list of records in the Sobject  
+// To access the records we are using context var i.e. ".new"
+//With Trigger.new am iterating over all the new updates list of records in the Sobject
 trigger contextVarTrigger on Sobject(before insert, before update)
 {
     for(Sobject s : Trigger.new)
     {
-        //some logic  
+        //some logic
     }
-    
+
 }
