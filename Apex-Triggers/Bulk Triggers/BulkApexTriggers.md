@@ -5,4 +5,5 @@
 * bulkifying the code can be done via: operating on all records in the trigger, 
   and performing SOQL and DML on collections of sObjects instead of single sObjects at a time.
 * [Bulkifying via Operating on all Records](https://github.com/herkura/Apex-Specialist/blob/main/Apex-Triggers/Bulk%20Triggers/MyTriggerBulk.apxt)
+* [Bulkifying via Soql](https://github.com/herkura/Apex-Specialist/blob/main/Apex-Triggers/Bulk%20Triggers/SoqlTriggerBulk.apxt)
 * Apex runtime allows up to 150 DML calls in one transaction
