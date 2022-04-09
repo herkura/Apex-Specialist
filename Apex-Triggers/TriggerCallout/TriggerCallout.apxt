@@ -1,0 +1,4 @@
+trigger TriggerCallout on Sobject(before insert, before update)
+{
+  class.makecallout();
+}
