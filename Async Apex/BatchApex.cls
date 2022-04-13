@@ -3,7 +3,8 @@ public class BatchApex implements Database.Batchable<Sobject>
     //start method
     public (Database.QueryLocator | Iterable<sObject>) start(Database.BatchableContext bc)
     {
-        // collect the batches of records or objects to be passed to execute
+        // collect the batches of records or objects to be passed to execute'
+        return Database.getQueryLocator([//some soql]);
     }
     
     //execute method
