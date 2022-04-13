@@ -23,3 +23,4 @@
         * execute - performs the processing, takes 2 parameters : 1) Database.BatchableContext and 2) List of sobject
         * finish - called once after all the batches are processed and used to execute pre processing ops like sending an email
           
+### Queueable Apex: 
